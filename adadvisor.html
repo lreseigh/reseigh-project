@@ -19,6 +19,10 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 
+				<!-- external flickity CSS link -->
+
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+
 				<!-- external font link -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
 
@@ -47,13 +51,13 @@
 
 		<!-- <section id="details"> -->
 			
-			<div id="project-images">
+			<div id="project-images" class="carousel" data-flickity>
 
-					<img src="img/aa-geek-hp.jpg" width="100%" alt="AdAdvisor homepage revamp">
-					<img src="img/aa-how-site.jpg" width="100%" alt="AdAdvisor section revamp">
-					<img src="img/aa-geek-tee.jpg" width="100%" alt="AdAdvisor geek t-shirt">
-					<img src="img/aa-dm.jpg" width="100%" alt="AdAdvisor direct mailer">
-					<img src="img/aa-tabletop.jpg" width="100%" alt="AdAdvisor tabletop booth">
+					<img src="img/aa-geek-hp.jpg" width="100%" alt="AdAdvisor homepage revamp" class="carousel-cell">
+					<img src="img/aa-how-site.jpg" width="100%" alt="AdAdvisor section revamp" class="carousel-cell">
+					<img src="img/aa-geek-tee.jpg" width="100%" alt="AdAdvisor geek t-shirt" class="carousel-cell">
+					<img src="img/aa-dm.jpg" width="100%" alt="AdAdvisor direct mailer" class="carousel-cell">
+					<img src="img/aa-tabletop.jpg" width="100%" alt="AdAdvisor tabletop booth" class="carousel-cell">
 
 			</div>
 
@@ -77,4 +81,11 @@
 		<footer>©2016 Laura Reseigh</footer>
 	
 	</body>
+
+			<!-- external flickity JS file -->
+
+
+<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
+
 </html>
