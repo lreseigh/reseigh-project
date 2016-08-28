@@ -369,16 +369,16 @@ header {
 }
 
 .thumbs-19{
-    background-image: url("../img/realworld-photo.jpg");
+    background-image: url("../img/gumball-mask.jpg");
     background-size: 150%;
     background-position: center top;
     background-repeat: no-repeat;
 }
 
 .thumbs-20{
-    background-image: url("../img/realworld-photo.jpg");
-    background-size: 150%;
-    background-position: center top;
+    background-image: url("../img/sayyes.jpg");
+    background-size: 300%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
