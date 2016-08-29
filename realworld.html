@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	
+
+<head>	
 
     	<meta charset="utf-8">
   
-    	<meta name="description" content="Laura Reseigh creative director and graphci designer.">
+    	<meta name="description" content="Laura Reseigh creative director and graphic designer.">
     	<meta name="keywords" content="graphic design, creative, art director, print, web, advertising, logos">
 
-		<title>Laura Reseigh</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- external font link -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+		<title>Laura Reseigh</title>
 
 		<!-- external CSS link -->
 
 		<link rel="stylesheet" href="css/reset.css">
 
-		<link rel="stylesheet" href="css/main.css">
+				<!-- external flickity CSS link -->
 
-		<!-- external icon link -->
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+
+				<!-- external font link -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+				<!-- external icon link -->
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
+		<link rel="stylesheet" href="css/main.css">
+
 	</head>
+
 	<body>
 
 		<header>
@@ -37,42 +45,38 @@
 				</ul>
 
 		</header>
-
-		<section id="details">
-			
-			<div id="project-images">
-				<div id="images">
-					<img src="img/realworld-sales.jpg" width="100%" alt="Real World of Marketing campaign image">
-					<img src="img/realworld-group.jpg" width="100%" alt=" Real World of Marketing campaign image">
-					<img src="img/realworld-photo.jpg" width="100%" alt=" Real World of Marketing campaign image">
-				</div>
-			</div>
-
-
-			<aside id="project-content clearfix">
-				<h2 id="project-name">The Real World of Marketing campaign</h2>
-				
-				<h3 id= "client-name">TARGUSinfo</h3>
-
-				<p id="project-copy">TARGUS info had never previously created a companywide campaign, so the CMO tasked me with the job. The Real World of Marketing campaign showed prospects and customers that the company understood their real problems and multiple solutions were available across their internal verticals.
-				</p>
-
-				<p id="project-copy">An imaginary team was created to show customers how their own problems could be solved. The team included the CEO, CMO, Marketing Manager, VP of Acquisition and Director of Sales. Custom photography was shot and stories were created to work individually and as a team, just like the real world.
-
-				</p>
-
-				<p id="project-copy"> The campaign ran for one year and was used across all sales verticals and marketing channels. Messaging was created from the collaboration from the creative, marketing, product and sales teams. 
-
-			</p>
-
-				<a class="controls" href="dotus.html">Previous</a>|<a class="controls" href="wagners3.html">Next</a>
-
-			</aside>
 		
-		</section>
+		<div id="project-images" class="carousel" data-flickity>
 
+			<img src="img/realworld-sales.jpg" width="100%" alt="Real World of Marketing campaign image" class="carousel-cell">
+			<img src="img/realworld-group.jpg" width="100%" alt=" Real World of Marketing campaign image" class="carousel-cell">
+			<img src="img/realworld-photo.jpg" width="100%" alt=" Real World of Marketing campaign image" class="carousel-cell">
+
+		</div>
+
+
+		<aside id="project-content">
+
+			<h2 id="project-name">The Real World of Marketing campaign</h2>
+				
+			<h3 id= "client-name">TARGUSinfo</h3>
+
+			<p id="project-copy">TARGUS info had never previously created a companywide campaign, so the CMO tasked me with the job. The Real World of Marketing campaign showed prospects and customers that the company understood their real problems and multiple solutions were available across their internal verticals.</p>
+
+			<p id="project-copy">An imaginary team was created to show customers how their own problems could be solved. The team included the CEO, CMO, Marketing Manager, VP of Acquisition and Director of Sales. Custom photography was shot and stories were created to work individually and as a team, just like the real world.</p>
+
+			<p id="project-copy"> The campaign ran for one year and was used across all sales verticals and marketing channels. Messaging was created from the collaboration from the creative, marketing, product and sales teams.</p>
+
+			<a class="controls" href="dotus.html">Previous</a>|<a class="controls" href="wagners3.html">Next</a>
+
+		</aside>
+		
 
 		<footer>©2016 Laura Reseigh</footer>
 	
 	</body>
+		<!-- external flickity JS file -->
+
+	<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
 </html>

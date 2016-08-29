@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	
+
+<head>	
 
     	<meta charset="utf-8">
   
-    	<meta name="description" content="Laura Reseigh creative director and graphci designer.">
+    	<meta name="description" content="Laura Reseigh creative director and graphic designer.">
     	<meta name="keywords" content="graphic design, creative, art director, print, web, advertising, logos">
 
-		<title>Laura Reseigh</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- external font link -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+		<title>Laura Reseigh</title>
 
 		<!-- external CSS link -->
 
 		<link rel="stylesheet" href="css/reset.css">
 
-		<link rel="stylesheet" href="css/main.css">
+				<!-- external flickity CSS link -->
 
-		<!-- external icon link -->
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+
+				<!-- external font link -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+				<!-- external icon link -->
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
+		<link rel="stylesheet" href="css/main.css">
+
 	</head>
+
 	<body>
 
 		<header>
@@ -37,39 +45,33 @@
 				</ul>
 
 		</header>
-
-		<section id="details">
 			
-			<div id="project-images">
-				<div id="images">
+		<div id="project-images" class="carousel" data-flickity>
 
-					<img src="img/smarty-pants.jpg" width="100%" alt="Smarrty Pants direct mailer">
-					<img src="img/getsmart-ad.jpg" width="100%" alt="Get Smart ad">
-					<img src="img/smart-geektee.jpg" width="100%" alt="Geek T-shirt">
-					<img src="img/smart-geekad.jpg" width="45%" alt="Geek Ad">
-					<img src="img/smart-mobileiq.jpg" width="45%" alt="Mobile IQ Ad">
+			<img src="img/smarty-pants.jpg" width="100%" alt="Smarrty Pants direct mailer" class="carousel-cell">
+			<img src="img/getsmart-ad.jpg" width="100%" alt="Get Smart ad" class="carousel-cell">
+			<img src="img/smart-geektee.jpg" width="100%" alt="Geek T-shirt" class="carousel-cell">
+			<img src="img/smart-geekad.jpg" width="50%" alt="Geek Ad" class="carousel-cell">
+			<img src="img/smart-mobileiq.jpg" width="50%" alt="Mobile IQ Ad" class="carousel-cell">
 
-					<img src="img/thinking-putty.jpg" width="100%" alt="Thinking putty giveaway">
-					<img src="img/proof-pudding.jpg" width="100%" alt="Proof is in the Pudding direct mail">
-					<img src="img/smart-thinkfast.jpg" width="45%" alt="Think Fast Ad">
-					<img src="img/smart-popquiz.jpg" width="45%" alt="Po Quiz Ad">
-				</div>
-			</div>
+			<img src="img/thinking-putty.jpg" width="100%" alt="Thinking putty giveaway" class="carousel-cell">
+			<img src="img/proof-pudding.jpg" width="100%" alt="Proof is in the Pudding direct mail" class="carousel-cell">
+			<img src="img/smart-thinkfast.jpg" width="50%" alt="Think Fast Ad" class="carousel-cell">
+			<img src="img/smart-popquiz.jpg" width="50%" alt="Po Quiz Ad" class="carousel-cell">
+		</div>
 
 
-			<aside id="project-content clearfix">
-				<h2 id="project-name">Smart campaign</h2>
+		<aside id="project-content">
+
+			<h2 id="project-name">Smart campaign</h2>
 				
-				<h3 id= "client-name">TARGUSinfo</h3>
+			<h3 id= "client-name">TARGUSinfo</h3>
 
-				<p id="project-copy">Copy Here
-				</p>
+			<p id="project-copy">Copy Here</p>
 
-				<p id="project-copy">Copy here
+			<p id="project-copy">Copy here</p>
 
-				</p>
-
-				<a class="controls" href="cnam-act.html">Previous</a>|<a class="controls" href="wagners2.html">Next</a>
+			<a class="controls" href="cnam-act.html">Previous</a>|<a class="controls" href="wagners2.html">Next</a>
 
 			</aside>
 		
@@ -79,4 +81,8 @@
 		<footer>©2016 Laura Reseigh</footer>
 	
 	</body>
+				<!-- external flickity JS file -->
+
+	<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
 </html>

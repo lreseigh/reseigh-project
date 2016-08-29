@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	
+
+	<head>	
 
     	<meta charset="utf-8">
   
-    	<meta name="description" content="Laura Reseigh creative director and graphci designer.">
+    	<meta name="description" content="Laura Reseigh creative director and graphic designer.">
     	<meta name="keywords" content="graphic design, creative, art director, print, web, advertising, logos">
 
-		<title>Laura Reseigh</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- external font link -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+		<title>Laura Reseigh</title>
 
 		<!-- external CSS link -->
 
 		<link rel="stylesheet" href="css/reset.css">
 
-		<link rel="stylesheet" href="css/main.css">
+				<!-- external flickity CSS link -->
 
-		<!-- external icon link -->
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+
+				<!-- external font link -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+				<!-- external icon link -->
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
+		<link rel="stylesheet" href="css/main.css">
+
 	</head>
+
 	<body>
 
 		<header>
@@ -38,45 +46,49 @@
 
 		</header>
 
-		<section id="details">
 			
-			<div id="project-images">
-				<div id="images">
+		<div id="project-images" class="carousel" data-flickity>
 
 
-					<img src="img/dotco-color-cover.jpg" width="100%" alt=".CO SXSW coloring book">
+			<img src="img/dotco-color-cover.jpg" width="100%" alt=".CO SXSW coloring book" class="carousel-cell">
 
-					<img src="img/dotco-color-unicorn.jpg" width="100%" alt=".CO SXSW coloring book">
+			<img src="img/dotco-color-unicorn.jpg" width="100%" alt=".CO SXSW coloring book" class="carousel-cell">
 
-					<img src="img/sxsw-welove_FB.jpg" width="100%" alt=".CO social graphics">
+			<img src="img/sxsw-welove_FB.jpg" width="100%" alt=".CO social graphics" class="carousel-cell">
 
-					<img src="img/sxsw-superstars_FB.jpg" width="100%" alt=".CO social graphics">
+			<img src="img/sxsw-superstars_FB.jpg" width="100%" alt=".CO social graphics" class="carousel-cell">
 
-					<img src="img/sxsw-lp.jpg" width="100%" alt=".CO SXSW landing page">
+			<img src="img/sxsw-lp.jpg" width="100%" alt=".CO SXSW landing page" class="carousel-cell">
 
-					<img src="img/sxsw-barsign.jpg" width="90%" alt=".CO SXSW barsign">
-				</div>
+			<img src="img/sxsw-barsign.jpg" width="50%" alt=".CO SXSW barsign" class="carousel-cell">
 
-			</div>
+		</div>
 
 
-			<aside id="project-content clearfix">
-				<h2 id="project-name">SXSW</h2>
+		<aside id="project-content">
+			
+			<h2 id="project-name">SXSW</h2>
 				
-				<h3 id= "client-name">.CO</h3>
+			<h3 id= "client-name">.CO</h3>
 
-				<p id="project-copy">.CO is a global top-level domain (TLDs) targeting those who want a unique web address and to join a community of innovators and entrepreneurs.</p>
+			<p id="project-copy">.CO is a global top-level domain (TLDs) targeting those who want a unique web address and to join a community of innovators and entrepreneurs.</p>
 
-				<p id="project-copy">SXSW</p>
+			<p id="project-copy">SXSW</p>
 
-				<a class="controls" href="dotnyc-enviro.html">Previous</a>|<a class="controls" href="welovecustomers.html">Next</a>
+			<a class="controls" href="dotnyc-enviro.html">Previous</a>|<a class="controls" href="welovecustomers.html">Next</a>
 
-			</aside>
+		</aside>
 		
-		</section>
 
 
 		<footer>©2016 Laura Reseigh</footer>
 	
 	</body>
+
+
+			<!-- external flickity JS file -->
+
+
+	<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
 </html>

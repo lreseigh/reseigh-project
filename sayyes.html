@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	
+
+<head>	
 
     	<meta charset="utf-8">
   
-    	<meta name="description" content="Laura Reseigh creative director and graphci designer.">
+    	<meta name="description" content="Laura Reseigh creative director and graphic designer.">
     	<meta name="keywords" content="graphic design, creative, art director, print, web, advertising, logos">
 
-		<title>Laura Reseigh</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- external font link -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+		<title>Laura Reseigh</title>
 
 		<!-- external CSS link -->
 
 		<link rel="stylesheet" href="css/reset.css">
 
-		<link rel="stylesheet" href="css/main.css">
+				<!-- external flickity CSS link -->
 
-		<!-- external icon link -->
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+
+				<!-- external font link -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+				<!-- external icon link -->
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
+		<link rel="stylesheet" href="css/main.css">
+
 	</head>
+
 	<body>
 
 		<header>
@@ -38,36 +46,31 @@
 
 		</header>
 
-		<section id="details clearfix">
 			
-			<div id="project-images">
-				<div id="images">
+		<div id="project-images" class="carousel" data-flickity>
 
-					<img src="img/sayyes.jpg" width="100%" alt="AccountLink Say Yes mailer">
+			<img src="img/sayyes.jpg" width="100%" alt="AccountLink Say Yes mailer" class="carousel-cell">
 
 				
-				</div>
+		</div>
 
-			</div>
-
-
-			<div id="project-content clearfix">
-				<h2 id="project-name">Say Yes</h2>
+		<div id="project-content">
+			
+			<h2 id="project-name">Say Yes</h2>
 				
-				<h3 id= "client-name">Neustar</h3>
+			<h3 id= "client-name">Neustar</h3>
 
-				<p id="project-copy">copy here.
-				</p>
+			<p id="project-copy">copy here.</p>
 
+			<a class="controls" href="gumball.html">Previous</a>|<a class="controls" href="iis.html">Next</a>
 
-				<a class="controls" href="gumball.html">Previous</a>|<a class="controls" href="iis.html">Next</a>
-
-			</div>
-		
-		</section>
-
+		</div>
 
 		<footer>©2016 Laura Reseigh</footer>
 	
 	</body>
+	<!-- external flickity JS file -->
+
+	<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
 </html>

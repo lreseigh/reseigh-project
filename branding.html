@@ -5,25 +5,33 @@
 
     	<meta charset="utf-8">
   
-    	<meta name="description" content="Laura Reseigh creative director and graphci designer.">
+    	<meta name="description" content="Laura Reseigh creative director and graphic designer.">
     	<meta name="keywords" content="graphic design, creative, art director, print, web, advertising, logos">
 
-		<title>Laura Reseigh</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- external font link -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+		<title>Laura Reseigh</title>
 
 		<!-- external CSS link -->
 
 		<link rel="stylesheet" href="css/reset.css">
 
-		<link rel="stylesheet" href="css/main.css">
+				<!-- external flickity CSS link -->
 
-		<!-- external icon link -->
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+
+				<!-- external font link -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+				<!-- external icon link -->
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
+		<link rel="stylesheet" href="css/main.css">
+
 	</head>
+
 	<body>
 
 		<header>
@@ -37,51 +45,47 @@
 				</ul>
 
 		</header>
-
-		<section id="details">
 			
-			<div id="project-images">
-				<div id="images">
+		<div id="project-images" class="carousel" data-flickity>
 
-					<img src="img/crave-all.jpg" width="100%" alt="Crave Cupcakery branding">
-					<img src="img/rtc-all.jpg" width="100%" alt="Rocking the chair">
-					<img src="img/paisleysun.jpg" width="40%" alt="Paisley Sun business card">
-					<img src="img/karin-card.jpg" width="40%" alt="Karin Dushaw Events">
-					<img src="img/savorysweet.jpg" width="60%" alt="Savory Sweet Catering logo">
+			<img src="img/crave-all.jpg" width="100%" alt="Crave Cupcakery branding" class="carousel-cell">
+			<img src="img/rtc-all.jpg" width="100%" alt="Rocking the chair" class="carousel-cell">
+			<img src="img/paisleysun.jpg" width="100%" alt="Paisley Sun business card" class="carousel-cell">
+			<img src="img/karin-card.jpg" width="100%" alt="Karin Dushaw Events" class="carousel-cell">
+			<img src="img/savorysweet.jpg" width="40%" alt="Savory Sweet Catering logo" class="carousel-cell">
+						
+		</div>
+
+
+		<aside id="project-content">
+
+			<h2 id="project-name">Branding</h2>
 				
-			</div>
+			<h3 id= "client-name">Miscellaneous clients</h3>
+
+			<p id="project-copy">Crave Cupcakery is a small cupcake business. I helped the owner come up with the name, tagline and colors while also designing the logo, business cards and inital landing page. It needed to be sweet and fun without looking too over the top pink.</p>
+
+			<p id="project-copy">Rocking the Chair is a family owned furniture restoration business. The owner came to me with the idea of using a specific chair she loved as part of the logo. The challenge was making the branding have a fun, youthful twist just like their furniture. Using lime green went hand in hand with their love of using pops of color on classic pieces. Logo, business card and price tags were created for the brand.</p>
+
+			<p id="project-copy">Paisley Sun was the a stay at home mom's idea for making adorable gifts using her sewing machine. From custom baby bibs to jean pocket purses, she knew she wanted something to match her sunny disposition and preppy style.</p>
+
+			<p id="project-copy">A small events business needed a logo and business cards for markekting purposes. Mainly working with weddings, Karin wanted something to appeal to brides. Her card was displayed at local vendors to drum up more business as well.</p>
+
+			<p id="project-copy">Savory Sweet catering needed a logo for their local business. Specializing in desserts and baked goods, we went with a lighter palette but left the door open for her business to evolve.</p>
+
+			<a class="controls" href="shawpittman.html">Previous</a>|<a class="controls" href="adadvisor.html">Next</a>
+
+		</aside>
 		
-			</div>
-
-
-			<aside id="project-content clearfix">
-				<h2 id="project-name">Branding</h2>
-				
-				<h3 id= "client-name">Miscellaneous clients</h3>
-
-				<p id="project-copy">Crave Cupcakery is a small cupcake business. I helped the owner come up with the name, tagline and colors while also designing the logo, business cards and inital landing page. It needed to be sweet and fun without looking too over the top pink.
-				</p>
-
-				<p id="project-copy">Rocking the Chair is a family owned furniture restoration business. The owner came to me with the idea of using a specific chair she loved as part of the logo. The challenge was making the branding have a fun, youthful twist just like their furniture. Using lime green went hand in hand with their love of using pops of color on classic pieces. Logo, business card and price tags were created for the brand.
-				</p>
-
-				<p id="project-copy">Paisley Sun was the a stay at home mom's idea for making adorable gifts using her sewing machine. From custom baby bibs to jean pocket purses, she knew she wanted something to match her sunny disposition and preppy style.  
-				</p>
-
-				<p id="project-copy">A small events business needed a logo and business cards for markekting purposes. Mainly working with weddings, Karin wanted something to appeal to brides. Her card was displayed at local vendors to drum up more business as well.  
-				</p>
-
-				<p id="project-copy">Savory Sweet catering needed a logo for their local business. Specializing in desserts and baked goods, we went with a lighter palette but left the door open for her business to evolve.
-				</p>
-
-				<a class="controls" href="shawpittman.html">Previous</a>|<a class="controls" href="adadvisor.html">Next</a>
-
-			</aside>
-		
-		</section>
-
 
 		<footer>©2016 Laura Reseigh</footer>
 	
 	</body>
+
+
+			<!-- external flickity JS file -->
+
+
+	<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
 </html>
