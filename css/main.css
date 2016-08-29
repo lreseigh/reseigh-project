@@ -111,26 +111,21 @@ header {
   color: #1baabf;
   margin: 1% 0 0 3%;
   padding-top: 1%;
-
 }
 
 /*larger than phone width*/
-/*@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
 .logo{
-  width:60%;
-  float: left;
-  font-size: 24px;
-  font-weight: 600;
-  color: #1baabf;
-  margin: 0 0 0 3%;
-  padding-top: 1%;
-  clear: right;
+  width: 100%;
+  font-size: 20px;
+  display: block;
+  clear: both;
   }
-}*/
+}
 
 
   /*larger than tablet width*/
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
 .logo{
   width:60%;
   float: left;
@@ -147,6 +142,15 @@ header {
     width:100%;
 
     }
+
+
+/*larger than mobile width*/
+@media screen and (min-width: 480px) {
+  .nav {
+  width:100%;
+
+  }
+}
 
 
   /*larger than tablet width*/
@@ -198,7 +202,7 @@ header {
 
 /*mobile phone width*/
 .size {
-  background-color: gray;
+/*  background-color: gray;*/
   float: left;
   height: 150px;
   margin: 1% 0;
@@ -209,12 +213,11 @@ header {
 /*larger than phone*/
 @media screen and (min-width: 480px) {
   .size {
-    background-color: gray;
     float: left;
-    height: 200px;
-    margin: .5%;
+    height: 150px;
+    margin: 1%;
     padding: 0;
-    width: 25%;
+    width: 48%;
 
   }
 }
@@ -222,7 +225,6 @@ header {
 /*larger than tablet*/
 @media screen and (min-width: 768px) {
   .size {
-    background-color: gray;
     float: left;
     height: 200px;
     margin: .5%;
@@ -253,9 +255,8 @@ header {
 }
 
 .thumbs-4{
-    background-image: url("../img/dotnyc-phone-hello.jpg");
-    background-size: cover;
-    background-size: 125%;
+    background-image: url("../img/dotnyc-phone-hello1.jpg");
+    background-size: 120%;
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -503,8 +504,8 @@ a.controls:visited{
 #project-content{
   width: 30%;
   float: left;
-  margin: 1% 1% 1% 0;
-
+  margin: 1% 1% 5% 0;
+  }
 }
 
 
