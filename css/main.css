@@ -249,8 +249,9 @@ header {
 }
 
 .thumbs-2{
-    background-image: url("../img/adweek-vending2.jpg");
-    background-size: cover;
+    background-image: url("../img/adweek-prize-thumb.jpg");
+    background-size: 180%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -297,7 +298,7 @@ header {
 }
 
 .thumbs-9{
-    background-image: url("../img/factpack2-jody-thumb.jpg");
+    background-image: url("../img/factpack2-jody.jpg");
     background-size: 200%;
     background-position: top right;
     background-repeat: no-repeat;
@@ -346,9 +347,9 @@ header {
 }
 
 .thumbs-16{
-    background-image: url("../img/dotus-spaceapps.jpg");
-    background-size: 150%;
-    background-position: center;
+    background-image: url("../img/dotus-spaceapps-thumb.jpg");
+    background-size: 170%;
+    background-position: center left;
     background-repeat: no-repeat;
 }
 
@@ -366,9 +367,9 @@ header {
 }
 
 .thumbs-19{
-    background-image: url("../img/gumball-mask.jpg");
-    background-size: 150%;
-    background-position: center top;
+    background-image: url("../img/gumball-mask-thumb.jpg");
+    background-size: 175%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
