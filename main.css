@@ -1,8 +1,3 @@
-/*
-Project Name: portfolio
-Author: Laura Reseigh
-*/
-
 
 /******************************************
 /* SETUP
@@ -13,8 +8,7 @@ Author: Laura Reseigh
 #1baabf is blue
 #898388 is gray
 #b63a9e is pink
-
-
+*/
 
 /* Clear fix hack */
 #clearfix:after {
@@ -197,7 +191,7 @@ header {
 
 
 
-/* magenta color #b63a9e 
+/* magenta color #b63a9e
 
 /******************************************
 /* HOME PAGE LAYOUT
@@ -446,7 +440,7 @@ header {
 
 #details{
 /*  float: left;
-*/ 
+*/
   width: 100%;
   margin: 0;
   padding: 0;
@@ -539,7 +533,7 @@ a.controls:visited{
   margin-right: 0;
   margin-bottom: 3%;
   line-height: 150%;
-  
+
 }
 
 /*#project-images img{
@@ -548,5 +542,3 @@ a.controls:visited{
   border: 1px lightgray solid;
   padding: 0%;
 }*/
-
-

@@ -3,6 +3,27 @@ Project Name: portfolio
 Author: Laura Reseigh
 */
 
+/*
+Project Name: portfolio
+Author: Laura Reseigh
+*/
+
+/*
+
+Hi Laura:
+
+Awesome job on this project. Your portfolio site looks professional and sleek; I love it!
+
+A few comments:
+
+- I would probably create a folder for your detail pages and leave index.html in the main folder. Once you hit a certain amount of HTML files, it helps a lot with organization to keep them separated.
+- Definitely delete the other main.css file; it will only add to your confusion when you think you're editing the right file and aren't seeing your changes on the page!
+- Absolutely love that you coded the grid yourself. Like I said during your presentation, it's way more impressive to create your own framework than to use someone else's.
+- You have a bunch of media queries in this CSS file, but you should really group them all together at the end. Have one large media query with all your altered styles for phone, iPad, etc.
+- I think it's important to be semantic with your naming conventions for classes. You're using things like "thumbs-1" and "thumbs-2", but if you changed the order of your thumbnails it would totally mess things up. Name them based on what they are/what they do!
+- I think it's much easier and cleaner to use <img> tags in your HTML rather than to create a new class for each thumbnail. I would create one generic class for all your thumbnails, and apply it to a <div> in your HTML and put an image in it. You can style the images in one swoop by selecing img in your CSS.
+
+*/
 
 /******************************************
 /* SETUP
@@ -13,8 +34,9 @@ Author: Laura Reseigh
 #1baabf is blue
 #898388 is gray
 #b63a9e is pink
+*/
 
-
+/* I don't think you had a closing out comment for the colors; I like the idea of putting those there for reference, though! In the future, you can look into Sass; it's a preprocessor that makes things like this SUPER easy to do by creating variable names for things like colors and fonts (it has a lot of other uses too). I'm surprised it didn't break anything by not having the closing comment, though. */
 
 /* Clear fix hack */
 #clearfix:after {
@@ -197,7 +219,7 @@ header {
 
 
 
-/* magenta color #b63a9e 
+/* magenta color #b63a9e
 
 /******************************************
 /* HOME PAGE LAYOUT
@@ -447,7 +469,7 @@ header {
 
 #details{
 /*  float: left;
-*/ 
+*/
   width: 100%;
   margin: 0;
   padding: 0;
@@ -540,7 +562,7 @@ a.controls:visited{
   margin-right: 0;
   margin-bottom: 3%;
   line-height: 150%;
-  
+
 }
 
 /*#project-images img{
@@ -549,5 +571,3 @@ a.controls:visited{
   border: 1px lightgray solid;
   padding: 0%;
 }*/
-
-
